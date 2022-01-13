@@ -153,7 +153,7 @@ class MachineLearLinear:
         y=dataset["Exited"]
         slope, intercept, r, p, std_err = stats.linregress(x, y)
         print(r)
-
+        print("test")
 
 
 MachineLearLinear.LinearReg1(MachineLearLinear)
